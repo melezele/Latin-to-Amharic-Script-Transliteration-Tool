@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			<h3>Latin to Amharic Transliterator</h3>
+            <br/>
+		</div>
+		
+	</div>
+	</header>    
+    
+
+	<p style="color:Green;font-size:70;text-align: left;"><b>Result </b></p>
+	<div class="results">
+		
+	<p>Input text: {{ input_text }}</p>
+    <p>Output text:{{ output_text }}</p>
+
+	</div>
+
+</body>
+</html>
